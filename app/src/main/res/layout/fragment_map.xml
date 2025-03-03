@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MapFragment">
+
+    <ImageView
+        android:id="@+id/carte"
+        android:layout_width="510dp"
+        android:layout_height="500dp"
+        android:paddingRight="25dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/carte" />
+
+
+    <ImageView
+        android:id="@+id/logo1"
+        android:layout_width="35dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="275dp"
+        android:layout_marginTop="320dp"
+        android:contentDescription="@string/description_logo_apf"
+        android:tag="APF"
+        app:layout_constraintBottom_toBottomOf="@id/carte"
+        app:layout_constraintEnd_toEndOf="@id/carte"
+        app:layout_constraintStart_toStartOf="@id/carte"
+        app:layout_constraintTop_toTopOf="@id/carte"
+        app:srcCompat="@drawable/apf3" />
+
+    <ImageView
+        android:id="@+id/logo2"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="359dp"
+        android:layout_marginTop="300dp"
+        android:contentDescription="@string/description_logo_resto"
+        android:tag="0"
+        app:layout_constraintBottom_toBottomOf="@id/carte"
+        app:layout_constraintEnd_toEndOf="@id/carte"
+        app:layout_constraintStart_toStartOf="@id/carte"
+        app:layout_constraintTop_toTopOf="@id/carte"
+        app:srcCompat="@drawable/resto_logo" />
+
+    <ImageView
+        android:id="@+id/logo3"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="221dp"
+        android:layout_marginTop="242dp"
+        android:contentDescription="@string/description_logo_sport"
+        android:tag="0"
+        app:layout_constraintBottom_toBottomOf="@id/carte"
+        app:layout_constraintEnd_toEndOf="@id/carte"
+        app:layout_constraintStart_toStartOf="@id/carte"
+        app:layout_constraintTop_toTopOf="@id/carte"
+        app:srcCompat="@drawable/logo_sport" />
+
+    <ImageView
+        android:id="@+id/logo4"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="252dp"
+        android:layout_marginTop="188dp"
+        android:contentDescription="@string/description_logo_sport"
+        android:tag="1"
+        app:layout_constraintBottom_toBottomOf="@id/carte"
+        app:layout_constraintEnd_toEndOf="@id/carte"
+        app:layout_constraintStart_toStartOf="@id/carte"
+        app:layout_constraintTop_toTopOf="@id/carte"
+        app:srcCompat="@drawable/logo_sport" />
+
+    <ImageView
+        android:id="@+id/logo5"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="150dp"
+        android:contentDescription="@string/description_logo_sport"
+        android:tag="FFTA Fédération Françase de Tir à l'arc"
+        app:layout_constraintBottom_toBottomOf="@id/carte"
+        app:layout_constraintEnd_toEndOf="@id/carte"
+        app:layout_constraintStart_toStartOf="@id/carte"
+        app:layout_constraintTop_toTopOf="@id/carte"
+        app:srcCompat="@drawable/logo_sport" />
+
+    <ImageView
+        android:id="@+id/logo6"
+        android:layout_width="32dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="235dp"
+        android:layout_marginTop="60dp"
+        android:contentDescription="@string/description_logo_shop"
+        android:tag="Decathlon"
+        app:layout_constraintBottom_toBottomOf="@id/carte"
+        app:layout_constraintEnd_toEndOf="@id/carte"
+        app:layout_constraintStart_toStartOf="@id/carte"
+        app:layout_constraintTop_toTopOf="@id/carte"
+        app:srcCompat="@drawable/logo_shop" />
+
+    <ImageView
+        android:id="@+id/logo7"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="385dp"
+        android:contentDescription="@string/description_logo_resto"
+        android:tag="1"
+        app:layout_constraintBottom_toBottomOf="@id/carte"
+        app:layout_constraintEnd_toEndOf="@id/carte"
+        app:layout_constraintStart_toStartOf="@id/carte"
+        app:layout_constraintTop_toTopOf="@id/carte"
+        app:srcCompat="@drawable/resto_logo" />
+
+    <ImageView
+        android:id="@+id/logo8"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="169dp"
+        android:layout_marginTop="385dp"
+        android:contentDescription="@string/description_logo_sport"
+        android:tag="2"
+        app:layout_constraintBottom_toBottomOf="@id/carte"
+        app:layout_constraintEnd_toEndOf="@id/carte"
+        app:layout_constraintStart_toStartOf="@id/carte"
+        app:layout_constraintTop_toTopOf="@id/carte"
+        app:srcCompat="@drawable/logo_sport" />
+
+    <ImageView
+        android:id="@+id/logo9"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="385dp"
+        android:tag="Sports Raquettes"
+        android:contentDescription="@string/description_logo_shop"
+        app:layout_constraintBottom_toBottomOf="@id/carte"
+        app:layout_constraintEnd_toEndOf="@id/carte"
+        app:layout_constraintStart_toStartOf="@id/carte"
+        app:layout_constraintTop_toTopOf="@id/carte"
+        app:srcCompat="@drawable/logo_shop" />
+
+    <ImageView
+        android:id="@+id/logo10"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="385dp"
+        android:contentDescription="@string/description_logo_sport"
+        android:tag="4"
+        app:layout_constraintBottom_toBottomOf="@id/carte"
+        app:layout_constraintEnd_toEndOf="@id/carte"
+        app:layout_constraintStart_toStartOf="@id/carte"
+        app:layout_constraintTop_toTopOf="@id/carte"
+        app:srcCompat="@drawable/logo_sport" />
+
+    <ImageView
+        android:id="@+id/logo11"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="105dp"
+        android:contentDescription="@string/description_logo_resto"
+        android:tag="2"
+        app:layout_constraintBottom_toBottomOf="@id/carte"
+        app:layout_constraintEnd_toEndOf="@id/carte"
+        app:layout_constraintStart_toStartOf="@id/carte"
+        app:layout_constraintTop_toTopOf="@id/carte"
+        app:srcCompat="@drawable/resto_logo" />
+
+    <ImageView
+        android:id="@+id/logo12"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="205dp"
+        android:contentDescription="@string/description_logo_sport"
+        android:tag="3"
+        app:layout_constraintBottom_toBottomOf="@id/carte"
+        app:layout_constraintEnd_toEndOf="@id/carte"
+        app:layout_constraintStart_toStartOf="@id/carte"
+        app:layout_constraintTop_toTopOf="@id/carte"
+        app:srcCompat="@drawable/logo_sport" />
+
+    <ImageView
+        android:id="@+id/logo13"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="171dp"
+        android:layout_marginTop="163dp"
+        android:contentDescription="@string/description_logo_sport"
+        android:tag="CMN Club Natation Marseille"
+        app:layout_constraintBottom_toBottomOf="@id/carte"
+        app:layout_constraintEnd_toEndOf="@id/carte"
+        app:layout_constraintStart_toStartOf="@id/carte"
+        app:layout_constraintTop_toTopOf="@id/carte"
+        app:srcCompat="@drawable/logo_sport" />
+
+    <ImageView
+        android:id="@+id/logo17"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="300dp"
+        android:contentDescription="@string/description_logo_sport"
+        android:tag="Escrime"
+        app:layout_constraintBottom_toBottomOf="@id/carte"
+        app:layout_constraintEnd_toEndOf="@id/carte"
+        app:layout_constraintStart_toStartOf="@id/carte"
+        app:layout_constraintTop_toTopOf="@id/carte"
+        app:srcCompat="@drawable/logo_sport" />
+
+    <ImageView
+        android:id="@+id/logo18"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="213dp"
+        android:layout_marginTop="300dp"
+        android:contentDescription="@string/description_logo_resto"
+        android:tag="3"
+        app:layout_constraintBottom_toBottomOf="@id/carte"
+        app:layout_constraintEnd_toEndOf="@id/carte"
+        app:layout_constraintStart_toStartOf="@id/carte"
+        app:layout_constraintTop_toTopOf="@id/carte"
+        app:srcCompat="@drawable/resto_logo" />
+
+    <ImageView
+        android:id="@+id/logo19"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="91dp"
+        android:layout_marginTop="300dp"
+        android:tag="KartShop France"
+        android:contentDescription="@string/description_logo_shop"
+        app:layout_constraintBottom_toBottomOf="@id/carte"
+        app:layout_constraintEnd_toEndOf="@id/carte"
+        app:layout_constraintStart_toStartOf="@id/carte"
+        app:layout_constraintTop_toTopOf="@id/carte"
+        app:srcCompat="@drawable/logo_shop" />
+
+    <ImageView
+        android:id="@+id/logo20"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="300dp"
+        android:tag="Montpellier Judo Olympics"
+        android:contentDescription="@string/description_logo_sport"
+        app:layout_constraintBottom_toBottomOf="@id/carte"
+        app:layout_constraintEnd_toEndOf="@id/carte"
+        app:layout_constraintStart_toStartOf="@id/carte"
+        app:layout_constraintTop_toTopOf="@id/carte"
+        app:srcCompat="@drawable/logo_sport" />
+
+    <ImageView
+        android:id="@+id/logo21"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="230dp"
+        android:tag="Probike Shop"
+        android:contentDescription="@string/description_logo_shop"
+        app:layout_constraintBottom_toBottomOf="@id/carte"
+        app:layout_constraintEnd_toEndOf="@id/carte"
+        app:layout_constraintStart_toStartOf="@id/carte"
+        app:layout_constraintTop_toTopOf="@id/carte"
+        app:srcCompat="@drawable/logo_shop" />
+
+    <ImageView
+        android:id="@+id/logo22"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="65dp"
+        android:tag="Lille Métropole Tennis de table"
+        android:contentDescription="@string/description_logo_sport"
+        app:layout_constraintBottom_toBottomOf="@id/carte"
+        app:layout_constraintEnd_toEndOf="@id/carte"
+        app:layout_constraintStart_toStartOf="@id/carte"
+        app:layout_constraintTop_toTopOf="@id/carte"
+        app:srcCompat="@drawable/logo_sport" />
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/map_filtre"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="bottom"
+        app:behavior_hideable="true">
+
+        <LinearLayout
+            android:id="@+id/bottomsheet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:paddingBottom="20dp"
+            app:behavior_hideable="false"
+            app:behavior_peekHeight="60dp"
+            app:layout_behavior="@string/sheetbehavior">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/rounded_top_map_bottom_sheet"
+                android:elevation="30dp"
+                android:fontFamily="@font/montserrat_medium"
+                android:gravity="center"
+                android:radius="50dp"
+                android:text="FILTRES"
+                android:textColor="@color/dark_blue"
+                android:textFontWeight="700"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/id_text_filtre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/space_btw"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="@string/filtrer_par"
+                android:textColor="@color/dark_blue"
+                android:textSize="@dimen/taille_nom" />
+
+            <RadioGroup
+                android:id="@+id/type_presta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/space_btw"
+                android:orientation="horizontal"
+                android:textColor="@color/dark_blue">
+
+                <!--                android:background="@null"
+                                android:checked="true"-->
+
+                <RadioButton
+                    android:id="@+id/resto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/baseline_restaurant_24"
+                    android:text="@string/sous_item_menu2_1"
+                    android:textColor="@color/dark_blue" />
+
+                <RadioButton
+                    android:id="@+id/club"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/baseline_directions_run_24"
+                    android:text="@string/sous_item_menu2_2"
+                    android:textColor="@color/dark_blue" />
+
+                <RadioButton
+                    android:id="@+id/magasin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/baseline_shopping_cart_24"
+                    android:gravity="center"
+                    android:text="@string/magasin"
+                    android:textColor="@color/dark_blue" />
+
+                <RadioButton
+                    android:id="@+id/id_btn_reset_filtre_map"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/reset"
+                    android:gravity="center"
+                    android:text="Effacer"
+                    android:textColor="@color/dark_blue" />
+            </RadioGroup>
+        </LinearLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</FrameLayout>
